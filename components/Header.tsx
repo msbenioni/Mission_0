@@ -20,7 +20,7 @@ export default function Header() {
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <Newspaper className="h-6 w-6" />
-          <span className="text-xl font-bold">NewsLister</span>
+          <span className="text-xl font-bold">MANZ Digital News</span>
         </div>
 
         {/* Desktop Navigation */}
