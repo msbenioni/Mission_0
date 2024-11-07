@@ -1,9 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Search, ChevronRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ArticleGrid from "@/components/ArticleGrid";
