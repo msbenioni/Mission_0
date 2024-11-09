@@ -1,9 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import { Menu, X, Newspaper } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 
 const navigation = [
   { name: "Home", href: "#" },
@@ -13,7 +12,6 @@ const navigation = [
 ];
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -45,6 +43,9 @@ export default function Header() {
             </Button>
           </SheetTrigger>
           <SheetContent>
+            <SheetHeader>
+              <SheetTitle>Navigation Menu</SheetTitle>
+            </SheetHeader>
             <div className="flex flex-col space-y-4 mt-8">
               {navigation.map((item) => (
                 <a
