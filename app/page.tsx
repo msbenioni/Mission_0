@@ -1,13 +1,11 @@
 "use client";
 
-import { useState } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ArticleGrid from "@/components/ArticleGrid";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  const [searchQuery, setSearchQuery] = useState("");
 
   return (
     <div className="min-h-screen flex flex-col">
