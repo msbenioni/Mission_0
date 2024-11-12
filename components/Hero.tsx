@@ -31,7 +31,7 @@ export default function Hero() {
         </div>
 
         {/* Search Bar */}
-        <div className="w-full max-w-2xl flex gap-2">
+        <div className="w-full max-w-2xl flex gap-2 mx-auto">
           <Input
             type="text"
             placeholder="Search articles..."
